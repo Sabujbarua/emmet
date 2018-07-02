@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/emmet.css">
+    <title>Emmet</title>
+</head>
+<body>
+    <h1>Coder avec Emmet</h1>
+    <nav>
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+    </nav>
+    <h2 id="html">HTML</h2>
+    <div>
+        <h3>Ajouter un enfant : ">"</h3>
+        <code>li>p</code> <br>
+        <code>ul>li>p</code> <br>
+        <img src="img-emmet/em1.png" alt="ex emmet">
+    </div>
+
+    <div>
+        <h1>Ajouter un frère : "+"</h1>
+        <code>ul>li>p+a</code>
+        <img src="img-emmet/em2.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Maltiplier : "*"</h3>
+        <code>ul>li*3>p+img</code>
+        <img src="img-emmet/em3.png" alt="emmet">
+        <!-- <ul>
+            <li>
+                <p></p>
+                <img src="" alt="">
+            </li>
+            <li>
+                <p></p>
+                <img src="" alt="">
+            </li>
+            <li>
+                <p></p>
+                <img src="" alt="">
+            </li>
+        </ul> -->
+    </div>
+
+    <div>
+        <h3>Ajouter une class</h3>
+        <code>ul.wrapper</code>
+        <code>.container</code>
+        <img src="img-emmet/em4.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Grouper des éléments Maltipliés : "()"</h3>
+        <code>ul>(header>ul>li*2)+footer>p</code>
+        <!-- <ul>
+            <header>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </header>
+            <footer>
+                <p></p>
+            </footer>
+        </ul> -->
+        <code>ul>(li>p+img+a)+li*2>p+img</code>
+        <!-- <ul>
+            <li>
+                <p></p>
+                <img src="" alt="">
+                <a href=""></a>
+            </li>
+            <li>
+                <p></p>
+                <img src="" alt="">
+            </li>
+            <li>
+                <p></p>
+                <img src="" alt="">
+            </li>
+        </ul> -->
+        <img src="img-emmet/em5.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Insérer du texte : "{}"</h3>
+        <code>a{cliquer}</code>
+        <!-- <a href="">cliquer</a> -->
+        <code>p>{cliquer}+a{ici}+{pour continuer}</code>
+        <!-- <p>
+            cliquer
+            <a href="">ici</a>
+            pour continuer
+        </p> -->
+        <img src="img-emmet/em6.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Ajouter une numérotation : "$"</h3>
+        <code>ul>li.item$*5</code>
+        <!-- <ul>
+            <li class="item1"></li>
+            <li class="item2"></li>
+            <li class="item3"></li>
+            <li class="item4"></li>
+            <li class="item5"></li>
+        </ul> -->
+        <img src="img-emmet/em7.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Numéroter à partir d'un chiffer au choix : "$@x"</h3>
+        <code>ul>li.item$@3*5</code> <br>
+        <!-- <ul>
+            <li class="item3"></li>
+            <li class="item4"></li>
+            <li class="item5"></li>
+            <li class="item6"></li>
+            <li class="item7"></li>
+        </ul> -->
+        <img src="img-emmet/em8.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Numéroter dans l'ordre décroissant : "$@-"</h3>
+        <code>ul>li.item$@-{pizza $@-}*5</code> <br>
+        <!-- <ul>
+            <li class="item5">pizza 1</li>
+            <li class="item4">pizza 2</li>
+            <li class="item3">pizza 3</li>
+            <li class="item2">pizza 4</li>
+            <li class="item1">pizza 5</li>
+        </ul>
+        <ul>
+            <li class="item5">pizza 5</li>
+            <li class="item4">pizza 4</li>
+            <li class="item3">pizza 3</li>
+            <li class="item2">pizza 2</li>
+            <li class="item1">pizza 1</li>
+        </ul> -->
+        <img src="img-emmet/em9.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Remonter au parent : "^"</h3>
+        <code>div>p>em{hello}^a</code><br>
+        <!-- <div>
+            <p><em>hello</em></p>
+            <a href=""></a>
+        </div> -->
+        <img src="img-emmet/em10.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Ajouter un attribut à une balise : "[]"</h3>
+        <code>img[src="http://20minutes.fr" alt="site infos"]</code> <br>
+         <!-- <img src="http://20minutes.fr" alt="site infos"> -->
+        <img class="margin" src="img-emmet/em11.png" alt="emmet">
+    </div>
+
+    <div>
+        <h3>Ajouter un id</h3>
+        <code>nav#id1.coco.azerty</code> <br>
+        <img src="img-emmet/em14.png" alt="">
+    </div>
+
+    <!-- Emmet pour CSS -->
+    <h2 id="css">CSS</h2>
+    <div>
+        <p>Raccourcis courants</p>
+    </div>
+    <img src="img-emmet/em13.png" alt="">
+
+</body>
+</html>
